@@ -20,6 +20,7 @@ import SpiderChart from "./pages/SpiderChart";
 import Stacked from "./pages/Stacked";
 import Gauges from "./pages/Gauges";
 
+
 function App() {
   const [count, setCount] = useState(0);
   // useEffect(() => {

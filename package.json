@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "chart.js": "^4.4.8",
+    "emailjs-com": "^3.2.0",
     "flowbite-react": "^0.10.2",
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.476.0",
