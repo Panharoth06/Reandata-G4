@@ -69,7 +69,6 @@ const DataSet = () => {
     }
   ];
 
-
   return (
     <div className="flex flex-col min-h-screen  ">
 
@@ -95,55 +94,71 @@ const DataSet = () => {
 
     {/* First Content Section */}
     <div className="w-full py-6 md:py-10 bg-[#3C55A599] px-2 sm:px-36 md:px-6 text-white">
-      <div className="container mx-auto sm:px-[6.5rem]">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-3 md:gap-5">
-          <div className="w-full md:w-1/2 px-2 md:px-4">
-            <h2 className="text-xl md:text-2xl lg:text-[32px] font-bold text-white mb-2 md:mb-3 tracking-tight">
-              Airline Data
-            </h2>
-            <p className="text-[#F1F5F9] text-sm md:text-base lg:text-lg text-justify mb-2 md:mb-4 tracking-tight leading-tight">
-              Airline data refers to the collection of structured and unstructured information related 
-              to airline operations, including flight schedules, passenger details, ticket prices, aircraft 
-              status, crew management, and other operational metrics. This data is used by airlines, airports, 
-              travel agencies, and regulatory bodies for decision-making, optimizing operations, and enhancing customer experience.
-            </p>
-          </div>
-          <div className="w-full md:w-1/2 rounded-lg px-2 md:px-4">
-            <img 
-              src={AirlineData}
-              alt="Airline data analytics" 
-              className="w-full h-auto rounded"
-            />
+        <div className="container mx-auto sm:px-[6.5rem]">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3 md:gap-5">
+            <div 
+              className="w-full md:w-1/2 px-2 md:px-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <h2 className="text-xl md:text-2xl lg:text-[32px] font-bold text-white mb-2 md:mb-3 tracking-tight">
+                Airline Data
+              </h2>
+              <p className="text-[#F1F5F9] text-sm md:text-base lg:text-lg text-justify mb-2 md:mb-4 tracking-tight leading-tight">
+                Airline data refers to the collection of structured and unstructured information related 
+                to airline operations, including flight schedules, passenger details, ticket prices, aircraft 
+                status, crew management, and other operational metrics. This data is used by airlines, airports, 
+                travel agencies, and regulatory bodies for decision-making, optimizing operations, and enhancing customer experience.
+              </p>
+            </div>
+            <div 
+              className="w-full md:w-1/2 rounded-lg px-2 md:px-4"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              <img
+                src={AirlineData}
+                alt="Airline data analytics"
+                className="w-full h-auto rounded"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    {/* Second Content Section */}
-    <div className="w-full py-6 md:py-10 bg-[#3C55A599] px-2 sm:px-36 md:px-6 text-white">
-      <div className="container mx-auto sm:px-[6.5rem]">
-        <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-3 md:gap-5">
-          <div className="w-full md:w-1/2 px-2 md:px-4">
-            <h2 className="text-xl md:text-2xl lg:text-[32px] font-bold text-white mb-2 md:mb-3 tracking-tight">
-              Food & Beverages
-            </h2>
-            <p className="text-white text-sm md:text-base lg:text-lg text-justify mb-2 md:mb-4 tracking-tight leading-tight">
-              Food and Beverage data refers to the collection of information related to the production, 
-              distribution, consumption, and sales of food and beverages. This data is used by restaurants, hotels, 
-              food manufacturers, retailers, and analysts to track trends, improve customer experiences, manage inventory, 
-              and optimize business operations.
-            </p>
-          </div>
-          <div className="w-full md:w-1/2 rounded-lg px-2 md:px-4">
-            <img 
-              src={FoodAndBeverage}
-              alt="Food and beverage display with fresh produce" 
-              className="w-full h-auto rounded"
-            />
+      {/* Second Content Section */}
+      <div className="w-full py-6 md:py-10 bg-[#3C55A599] px-2 sm:px-36 md:px-6 text-white">
+        <div className="container mx-auto sm:px-[6.5rem]">
+          <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-3 md:gap-5">
+            <div 
+              className="w-full md:w-1/2 px-2 md:px-4"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <h2 className="text-xl md:text-2xl lg:text-[32px] font-bold text-white mb-2 md:mb-3 tracking-tight">
+                Food & Beverages
+              </h2>
+              <p className="text-white text-sm md:text-base lg:text-lg text-justify mb-2 md:mb-4 tracking-tight leading-tight">
+                Food and Beverage data refers to the collection of information related to the production, 
+                distribution, consumption, and sales of food and beverages. This data is used by restaurants, hotels, 
+                food manufacturers, retailers, and analysts to track trends, improve customer experiences, manage inventory, 
+                and optimize business operations.
+              </p>
+            </div>
+            <div 
+              className="w-full md:w-1/2 rounded-lg px-2 md:px-4"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            >
+              <img
+                src={FoodAndBeverage}
+                alt="Food and beverage display with fresh produce"
+                className="w-full h-auto rounded"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
   
       {/* Data Sources & Collection Section */}
@@ -211,25 +226,25 @@ const DataSet = () => {
         </p>
       </div>
 
-  {/* Features Grid */}
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-    <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
-      <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Routes & Schedules</h4>
-      <p className="text-gray-600 text-sm">Comprehensive flight path data including origin, destination, and transit timing</p>
+    {/* Features Grid */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+      <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
+        <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Routes & Schedules</h4>
+        <p className="text-gray-600 text-sm">Comprehensive flight path data including origin, destination, and transit timing</p>
+      </div>
+      <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
+        <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Pricing Models</h4>
+        <p className="text-gray-600 text-sm">Historical and current ticket prices with seasonal and demand-based variations</p>
+      </div>
+      <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
+        <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Fleet Management</h4>
+        <p className="text-gray-600 text-sm">Aircraft details including maintenance records, capacity, and operational status</p>
+      </div>
+      <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
+        <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Performance Metrics</h4>
+        <p className="text-gray-600 text-sm">Key indicators for on-time performance, utilization rates, and operational efficiency</p>
+      </div>
     </div>
-    <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
-      <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Pricing Models</h4>
-      <p className="text-gray-600 text-sm">Historical and current ticket prices with seasonal and demand-based variations</p>
-    </div>
-    <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
-      <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Fleet Management</h4>
-      <p className="text-gray-600 text-sm">Aircraft details including maintenance records, capacity, and operational status</p>
-    </div>
-    <div className="bg-[#f0f2f9] p-5 rounded-lg border-l-4 border-[#3C55A5]">
-      <h4 className="font-semibold text-[#1E293B] text-lg mb-2">Performance Metrics</h4>
-      <p className="text-gray-600 text-sm">Key indicators for on-time performance, utilization rates, and operational efficiency</p>
-    </div>
-  </div>
 
   {/* Image Section Below Content */}
   <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">

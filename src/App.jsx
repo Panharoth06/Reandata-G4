@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import NavbarComponent from "./components/NavbarComponent";
 import DataSet from "./components/DataSet.JSX";
 import Documentation from "./components/Documentation";
+import LandingPage from "./components/LoadingPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,7 @@ function App() {
         </h1> */}
         {/* <DataSet/> */}
         <Documentation/>
-        {/* <FoodAndBeverage/> */}
+        {/* <LandingPage/> */}
       </main>
       <Footer />
     </>
