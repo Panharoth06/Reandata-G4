@@ -161,7 +161,7 @@ export default function StackedBarChart() {
             },
             ticks: {
               font: {
-                family: "Inter, sans-serif",
+                family: "Roboto, sans-serif",
                 size: 12,
               },
               color: "#333",
@@ -175,7 +175,7 @@ export default function StackedBarChart() {
             },
             ticks: {
               font: {
-                family: "Inter, sans-serif",
+                family: "Roboto, sans-serif",
                 size: 12,
               },
               color: "#333",
@@ -190,7 +190,7 @@ export default function StackedBarChart() {
               boxWidth: 15,
               padding: 15,
               font: {
-                family: "Inter, sans-serif",
+                family: "Roboto, sans-serif",
                 size: 12,
               },
             },
@@ -277,20 +277,20 @@ export default function StackedBarChart() {
 
   return (
     <div className="main-container w-full max-w-6xl h-auto bg-gradient-to-br  relative mx-auto my-0 p-6 rounded-xl">
-      <span className="block font-['Inter'] text-2xl font-bold leading-10 text-[#0f172a] relative text-left whitespace-nowrap mt-6 ml-8 before:content-[''] before:absolute before:w-2 before:h-8 before:bg-[#3C55A5] before:left-[-16px] before:top-1 before:rounded-sm">
+      <span className="block font-['Roboto'] text-2xl font-bold leading-10 text-[#0f172a] relative text-left whitespace-nowrap mt-6 ml-8 before:content-[''] before:absolute before:w-2 before:h-8 before:bg-[#3C55A5] before:left-[-16px] before:top-1 before:rounded-sm">
         Stacked Bar Chart
       </span>
       <div className="flex w-full max-w-4xl h-[550px] pt-6 pr-8 pb-8 pl-8 flex-col gap-4 justify-center items-center flex-nowrap bg-white rounded-lg relative shadow-lg z-[1] mt-9 mx-auto transition-all duration-500 hover:shadow-xl border border-[#3C55A5]">
         <div className="flex gap-2 items-center self-stretch shrink-0 flex-nowrap relative z-[2]">
-          <span className="h-[25px] grow shrink-0 basis-auto font-['Inter'] text-2xl leading-6 text-[#343a40] relative text-left whitespace-nowrap z-[3]">
+          <span className="h-[25px] grow shrink-0 basis-auto font-['Roboto'] text-2xl leading-6 text-[#343a40] relative text-left whitespace-nowrap z-[3]">
             {dataSet}
           </span>
           <div className="relative">
             <div
-              className="flex opacity-0 px-4 py-2 gap-1 items-center shrink-0 flex-nowrap bg-white rounded-lg relative z-[4] hover:shadow-lg transition-all duration-300 cursor-pointer border border-[#e9ecef]"
+              className="flex opacity-0 px-4 py-2 gap-1 items-center shrink-0 flex-nowrap bg-white rounded-lg relative z-[4] hover:shadow-lg transition-all duration-300 cursor-poRoboto border border-[#e9ecef]"
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
             >
-              <span className="flex w-48 h-[18px] justify-end items-start shrink-0 font-['Inter'] text-sm font-medium leading-[17.5px] text-[#343a40] relative text-right whitespace-nowrap z-[5]">
+              <span className="flex w-48 h-[18px] justify-end items-start shrink-0 font-['Roboto'] text-sm font-medium leading-[17.5px] text-[#343a40] relative text-right whitespace-nowrap z-[5]">
                 {dataSet}
               </span>
               <div
@@ -325,7 +325,7 @@ export default function StackedBarChart() {
                   ].map((set) => (
                     <li
                       key={set}
-                      className={`px-4 py-2 text-sm font-medium cursor-pointer hover:bg-[#f8f9fa] transition-colors duration-150 ${
+                      className={`px-4 py-2 text-sm font-medium cursor-poRoboto hover:bg-[#f8f9fa] transition-colors duration-150 ${
                         set === dataSet
                           ? "bg-[#f0fffd] text-[#4bc0c0]"
                           : "text-[#343a40]"
@@ -347,34 +347,34 @@ export default function StackedBarChart() {
           </div>
           <div className="flex justify-between items-center self-stretch shrink-0 flex-nowrap relative z-[10] bg-[#f8f9fa] p-4 rounded-lg">
             <div className="flex flex-col gap-1 items-start shrink-0 flex-nowrap relative">
-              <span className="font-['Inter'] text-xs text-[#6c757d]">
+              <span className="font-['Roboto'] text-xs text-[#6c757d]">
                 Dataset
               </span>
-              <span className="font-['Inter'] text-lg font-bold text-[#343a40]">
+              <span className="font-['Roboto'] text-lg font-bold text-[#343a40]">
                 {dataSet}
               </span>
             </div>
             <div className="flex flex-col gap-1 items-start shrink-0 flex-nowrap relative">
-              <span className="font-['Inter'] text-xs text-[#6c757d]">
+              <span className="font-['Roboto'] text-xs text-[#6c757d]">
                 Categories
               </span>
-              <span className="font-['Inter'] text-lg font-bold text-[#343a40]">
+              <span className="font-['Roboto'] text-lg font-bold text-[#343a40]">
                 {getCategoriesCount()}
               </span>
             </div>
             <div className="flex flex-col gap-1 items-start shrink-0 flex-nowrap relative">
-              <span className="font-['Inter'] text-xs text-[#6c757d]">
+              <span className="font-['Roboto'] text-xs text-[#6c757d]">
                 Components
               </span>
-              <span className="font-['Inter'] text-lg font-bold text-[#343a40]">
+              <span className="font-['Roboto'] text-lg font-bold text-[#343a40]">
                 {getComponentsCount()}
               </span>
             </div>
             <div className="flex flex-col gap-1 items-start shrink-0 flex-nowrap relative">
-              <span className="font-['Inter'] text-xs text-[#6c757d]">
+              <span className="font-['Roboto'] text-xs text-[#6c757d]">
                 Total Value
               </span>
-              <span className="font-['Inter'] text-lg font-bold text-[#343a40]">
+              <span className="font-['Roboto'] text-lg font-bold text-[#343a40]">
                 {getTotalValue()}
               </span>
             </div>
@@ -382,16 +382,16 @@ export default function StackedBarChart() {
         </div>
       </div>
       <div className="w-full max-w-4xl font-['Roboto'] text-2xl font-normal leading-8 relative text-left z-[59] mt-2 mx-auto p-1 transition-all duration-500">
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full">
           1. What is stacked Charts?
         </span>
-        <span className="font-['Inter'] text-xl leading-8 text-[#334155] relative text-left block mt-3">
+        <span className="font-['Roboto'] text-xl leading-8 text-[#334155] relative text-left block mt-3">
           Stacked Charts are a type of data visualization used to represent the
           composition of a whole over time or categories. These charts are a
           variation of bar charts (or area charts) where each segment of the bar
           (or area) is stacked on top of the previous one.
         </span>
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
           2. What kind of data that perfect for stacked Charts ?
         </span>
         <ul className="mt-4 space-y-2">
@@ -425,7 +425,7 @@ export default function StackedBarChart() {
             </span>
           </li>
         </ul>
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
           3. Stacked Bar Chart Best Practices:
         </span>
         <ul className="mt-4 space-y-2">

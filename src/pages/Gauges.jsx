@@ -109,7 +109,7 @@ export default function GaugesChart() {
 
   return (
     <div className="main-container w-full max-w-6xl h-auto bg-gradient-to-br relative mx-auto my-8 p-6 rounded-xl">
-      <span className="block font-['Inter'] text-2xl font-bold leading-10 text-[#0f172a] relative text-left whitespace-nowrap mt-6 ml-8 before:content-[''] before:absolute before:w-2 before:h-8 before:bg-[#3C55A5] before:left-[-16px] before:top-1 before:rounded-sm">
+      <span className="block font-['Roboto'] text-2xl font-bold leading-10 text-[#0f172a] relative text-left whitespace-nowrap mt-6 ml-8 before:content-[''] before:absolute before:w-2 before:h-8 before:bg-[#3C55A5] before:left-[-16px] before:top-1 before:rounded-sm">
         Gauges Chart
       </span>
       
@@ -215,15 +215,15 @@ export default function GaugesChart() {
       </div>
       
       {/* Information section */}
-      <div className="w-full max-w-4xl font-['Inter'] text-xl relative text-left z-[59] mt-6 mx-auto p-1">
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full">
+      <div className="w-full max-w-4xl font-['Roboto'] text-xl relative text-left z-[59] mt-6 mx-auto p-1">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full">
        1. What is Gauges Charts? 
         </span>
         <p className="mt-4 text-[#334155]">
         Gauges Charts (also known as Gauge or Speedometer Charts) are a type of data visualization used to represent a single data value in a radial format, typically resembling a speedometer or meter.
         </p>
         
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
        2. What kind of data that perfect for  Gauges Charts ? 
         </span>
         <ul className="mt-4 space-y-2">
@@ -253,7 +253,7 @@ export default function GaugesChart() {
           </li>
         </ul>
         
-        <span className="font-['Inter'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
+        <span className="font-['Roboto'] text-2xl leading-10 text-[#1e293b] relative text-left block before:content-[''] before:absolute before:w-10 before:h-1 before:bg-[#3C55A5] before:bottom-[-4px] before:left-0 before:rounded-full mt-6">
        3. The importance of using Gauges Charts  ?
         </span>
         <ul className="mt-4 space-y-2">
