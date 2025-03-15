@@ -22,23 +22,22 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <main className="font-sans bg-gray-50">
+    <main className="font-sans bg-gray-50 bg-gray-100">
 
       {/* Hero Section */}
-      <section className="bg-gray-100 text-white w-full pt-0">
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center mt-[-6%]">
-          <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0 sm:px-[2rem]"
-           data-aos="fade-right"
-           data-aos-duration="1000">
-            <h1 className="text-[48px] md:text-4xl font-bold mb-4 mt-0 text-[#3C55A5]">
-              Unlock Your Data Potential{" "}
-              <span className="text-[#22B04B]"><br /><span className="text-[#3C55A5]">with</span> Reandata</span>
-            </h1><br />
-            <p className="mb-6 text-[24px] text-[#3C55A5]">
+      <section className="px-4 py-12 md:py-16 lg:py-20 bg-gray-100">
+        <div className="grid max-w-screen-xl mx-auto lg:grid-cols-12 gap-8 items-center">
+          {/* Left Content */}
+          <div className="lg:col-span-7 text-center lg:text-left">
+            <h2 className="max-w-2xl mb-4 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-medium text-[#3C55A5] tracking-tight">
+              Unlock Your Data Potential With{" "}
+              <span className="text-[#22B04B]"> Reandata</span>
+            </h2>
+            <p className="max-w-2xl mb-6 text-gray-500 leading-relaxed md:text-lg lg:text-xl">
               Access free, beginner-friendly resources to learn data analysis,
               visualization, and more. Start your journey today and build a
               solid foundation for your data career.
-            </p><br />
+            </p>
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start">
               <a
@@ -60,13 +59,17 @@ export default function LandingPage() {
               </a>
             </div>
           </div>
-          <div className="md:w-[70%] ml-auto mr-[-35px] pr-0"
-            data-aos="fade-left"
-            data-aos-duration="1000">
+
+          {/* Right Image */}
+          <div
+            className="lg:col-span-5 flex justify-center lg:justify-end"
+            data-aos="zoom-in"
+            data-aos-delay="75"
+          >
             <img
               src={DataAnalysis}
-              alt="Data analytics illustration"
-              className="w-full h-auto"
+              alt="Hero Image"
+              className="w-full max-w-md sm:max-w-lg lg:max-w-xl h-auto hover:scale-[1.03] hover:cursor-pointer transition-all duration-150 ease-in-out"
             />
           </div>
         </div>
@@ -74,7 +77,7 @@ export default function LandingPage() {
 
       {/* Journey Section */}
       <section className="px-4 bg-gray-100">
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-8 mt-[-4%] ">
+        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-8 ">
           {/* Content Box */}
           <div
             className="md:w-1/2 mb-8 md:mb-0"
@@ -317,9 +320,7 @@ export default function LandingPage() {
                 </div>
               </div>
       </section>
-
-
-
+      
     </main>
   );
 }

@@ -17,9 +17,9 @@ function App() {
         {/* <h1 className="text-5xl text-blue-400 text-center bg-slate-100 py-4 uppercase rounded-lg h-screen">
           Kjel tver nas
         </h1> */}
-        {/* <DataSet/> */}
+        <DataSet/>
         <Documentation/>
-        {/* <LandingPage/> */}
+        <LandingPage/>
       </main>
       <Footer />
     </>

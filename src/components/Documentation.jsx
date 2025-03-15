@@ -16,9 +16,9 @@ const Documentation = () => {
     }, []);
 
     return (
-        <div className="flex flex-col min-h-screen bg-gray-100">
+        <main className=" font-roboto flex flex-col min-h-screen bg-gray-100">
             
-            <div className="w-full py-8 md:py-16 bg-gradient-to-r from-[#17203F] via-[#23315F] to-[#3C55A5] text-white text-center">
+            <section className="w-full py-8 md:py-16 bg-gradient-to-r from-[#17203F] via-[#23315F] to-[#3C55A5] text-white text-center">
               <div className="container mx-auto px-4 py-4 md:py-8 max-w-4xl">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">How To Use Dataset</h1>
                 <p className="text-sm md:text-base text-slate-100 mb-4 md:mb-8 max-w-2xl mx-auto">
@@ -26,10 +26,10 @@ const Documentation = () => {
                   data types, creating, and collaborating.
                 </p>
               </div>
-            </div>
+            </section>
             
              {/* Quick Start Guide */}
-            <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 xl:px-36 w-full">
+            <section className="container mx-auto px-4 py-12 sm:px-6 lg:px-8 xl:px-36 w-full">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-10" data-aos="fade-up">Quick Start Guide</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -122,10 +122,10 @@ const Documentation = () => {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </section> 
 
             {/* Visualization Techniques */}
-            <div className="bg-[#3C55A5]/5 py-12">
+            <section className="bg-gray-100 py-12">
                 <div className="container mx-auto px-6 sm:px-6 lg:px-8 xl:px-36 w-full">
                     <h2 className="text-3xl font-bold text-center text-gray-800 mb-10" data-aos="fade-up">Visualization Techniques</h2>
                     
@@ -233,10 +233,10 @@ const Documentation = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* Data Preparation Steps */}
-            <div className="container mx-auto px-6 py-12 sm:px-6 lg:px-8 xl:px-36 w-full">
+            <section className="container mx-auto px-6 py-12 sm:px-6 lg:px-8 xl:px-36 w-full bg-gray-100">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-10" data-aos="fade-up">Data Preparation Process</h2>
                 
                 <div className="relative">
@@ -311,19 +311,19 @@ const Documentation = () => {
                         ))}
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* Call to Action */}
-            <div className="bg-gradient-to-r from-[#17203F] via-[#23315F] to-[#3C55A5] py-16">
+            <section className="bg-gradient-to-r from-[#17203F] via-[#23315F] to-[#3C55A5] py-16">
                 <div className="container mx-auto px-6 text-center sm:px-6 lg:px-8 xl:px-16 w-full">
                     <h2 className="text-3xl font-bold text-white mb-4">Ready to Transform Your Data?</h2>
                     <p className="text-white mb-8 max-w-2xl mx-auto">
                         Unlock the full potential of your datasets with our powerful visualization tools
                     </p>
                 </div>
-            </div>
+            </section>
 
-        </div>
+        </main>
     );
 };
   
