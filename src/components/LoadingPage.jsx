@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import DataAnalysis from "../img/hero-section-gif.gif";
-import Visualization from "../img/VisualizationData.png";
+import Visualization from "../img/start-your-journey.gif";
 import why_data from "../img/why-data.gif";
-import barChartImg from "../img/barChart.png";
-import pieChartImg from "../img/pieChart.png";
+import barChartImg from "../img/barChart.jpg";
+import pieChartImg from "../img/pieChart.jpg";
 import lineChartImg from "../img/lineChart.png";
 import histoGramImg from "../img/histogGram.png";
 
@@ -253,9 +253,9 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Bar Chart Card */}
             <div className="group" data-aos="fade-up" data-aos-delay="100">
-              <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-xl border border-gray-100">
-                <div className="p-1">
-                  <img src={barChartImg} alt="Bar Chart" className="w-full h-[220px] object-cover" />
+              <div className="bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-md border border-gray-100">
+                <div className="">
+                  <img src={barChartImg} alt="Bar Chart" className="w-full h-[280px]  p-4" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-semibold text-lg text-[#3C55A5] mb-2 text-bold">Bar Charts</h3>
@@ -266,9 +266,9 @@ export default function LandingPage() {
 
             {/* Pie Chart Card */}
             <div className="group" data-aos="fade-up" data-aos-delay="200">
-              <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-xl border border-gray-100">
-                <div className="p-1">
-                  <img src={pieChartImg} alt="Pie Chart" className="w-full h-[220px] object-cover" />
+              <div className="bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-md border border-gray-100">
+                <div className="">
+                  <img src={pieChartImg} alt="Pie Chart" className="w-full h-[280px]  p-4" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-semibold text-lg text-[#3C55A5] mb-2 text-bold">Pie Charts</h3>
@@ -279,9 +279,9 @@ export default function LandingPage() {
 
             {/* Line Graph Card */}
             <div className="group" data-aos="fade-up" data-aos-delay="300">
-              <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-xl border border-gray-100">
+              <div className="bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-md border border-gray-100">
                 <div className="p-1">
-                  <img src={lineChartImg} alt="Line Graph" className="w-full h-[220px] object-cover" />
+                  <img src={lineChartImg} alt="Line Graph" className="w-full h-[280px] p-4" />
                 </div>
                 <div className="p-5">
                   <h3 className="font-semibold text-lg text-[#3C55A5] mb-2 text-bold">Line Graphs</h3>
@@ -292,9 +292,9 @@ export default function LandingPage() {
 
             {/* Histogram Card */}
             <div className="group" data-aos="fade-up" data-aos-delay="400">
-              <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-xl border border-gray-100">
+              <div className="bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300 transform group-hover:-translate-y-2 group-hover:shadow-md border border-gray-100">
                 <div className="p-1">
-                  <img src={histoGramImg} alt="Histogram" className="w-full h-[220px] object-cover" />
+                  <img src={histoGramImg} alt="Histogram" className="w-full h-[280px] p-4" />
                 </div>
                 <div className="p-5 ">
                   <h3 className="font-semibold text-lg text-[#3C55A5] mb-2 text-bold">Histograms</h3>
