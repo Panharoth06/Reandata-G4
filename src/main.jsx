@@ -24,7 +24,7 @@ createRoot(document.getElementById("root")).render(
               <Route path="/profile" element={<Profile />} />
               <Route path="/password" element={<ChangePassword />} />
             </Route>
-            <Route path="/" element={<Login />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/forgetpassword" element={<ForgetPassword />} />
             <Route path="/resetpassword" element={<ResetPassword />} />
