@@ -318,8 +318,8 @@ const DataSet = () => {
                         1
                       </div>
                       <div>
-                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Dietary Preferences</h4>
-                        <p className="text-gray-600">What kinds of food do people eat during air travel? How do these preferences vary by flight duration and time of day?</p>
+                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Dining Preferences</h4>
+                        <p className="text-gray-600">Where do you usually get your food from? Do you prefer restaurants, street food, or delivery?</p>
                       </div>
                     </div>
                     
@@ -328,22 +328,31 @@ const DataSet = () => {
                         2
                       </div>
                       <div>
-                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Beverage Selection</h4>
-                        <p className="text-gray-600">What beverages do travelers prefer? Are there notable differences between business and economy class preferences?</p>
+                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Spending & Payment</h4>
+                        <p className="text-gray-600">How much do you usually spend on food? What is your preferred payment method?</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start">
                       <div className="h-8 w-8 bg-[#e6f3ea] text-[#22B04B] rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">
                         3
                       </div>
                       <div>
-                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Satisfaction Metrics</h4>
-                        <p className="text-gray-600">How does food quality affect overall travel experience? What factors have the most impact on passenger satisfaction?</p>
+                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Food & Beverage Choices</h4>
+                        <p className="text-gray-600">What types of food and drinks do you enjoy the most? Do you have any specific taste preferences?</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <div className="h-8 w-8 bg-[#e6f3ea] text-[#22B04B] rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">
+                        4
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-[#1E293B] text-lg mb-1">Discounts & Offers</h4>
+                        <p className="text-gray-600">Do you prefer discounts or free delivery? What kind of promotions attract you the most?</p>
                       </div>
                     </div>
                   </div>
-                  
                   {/* Survey Methodology Note */}
                   <div className="bg-[#f0f9f0] border-l-4 border-[#22B04B] p-4 rounded-r-lg">
                     <h4 className="text-[#22B04B] font-semibold text-lg mb-2">Survey Methodology</h4>
